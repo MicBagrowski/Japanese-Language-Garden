@@ -59,13 +59,14 @@ function checkAnswer(answer) {
         alert('Źle, spróbuj jeszcze raz.');
     }
 
+    // Przejście do następnego pytania
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
         displayQuestion();
     } else {
         alert('Koniec gry!');
-        currentQuestionIndex = 0;
-        displayQuestion();
+        currentQuestionIndex = 0; // Zresetuj grę do pierwszego pytania
+        displayQuestion(); // Opcjonalnie: zrestartuj grę automatycznie
     }
 }
 
@@ -73,4 +74,4 @@ document.getElementById('nextQuestionButton').onclick = function() {
     displayQuestion();
 };
 
-displayQuestion();
+displayQuestion(); // Zaczynamy
