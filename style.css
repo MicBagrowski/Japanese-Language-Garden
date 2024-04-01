@@ -1,0 +1,77 @@
+/* Styl ogólny */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0eae0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nagłówek */
+header {
+    background-color: #8c8074;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Nawigacja */
+nav {
+    background-color: #639a67;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav button {
+    background-color: #507f50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #406645;
+}
+
+/* Sekcje lekcji */
+.lesson-section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Stopka */
+footer {
+    background-color: #8c8074;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#kanaGame {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#gameOptions div {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+#gameOptions div:hover {
+    background-color: #ddd;
+}
+
+.kana-examples p, .kanji-examples p {
+    font-size: 40px; /* Dostosuj rozmiar do swoich potrzeb */
+}
+
+#gameOptions div {
+    cursor: default;
+}
